@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Heron_5022358.Views.TrianguloEquilateroPage"
+             Title="TrianguloEquilateroPage"
+             BackgroundColor="#fff"
+             >
+    <VerticalStackLayout
+        Spacing="30"
+        VerticalOptions="End"
+        >
+        <Image Source="eron.png" WidthRequest="200" HeightRequest="200"/>
+        <Entry Placeholder="Primer Numero" x:Name="A" TextColor="Black"/>
+        <Entry Placeholder="Segundo Numero" x:Name="B" TextColor="Black"/>
+        <Entry Placeholder="Tercer Numero" x:Name="C" TextColor="Black"/>
+        <Entry Placeholder="-- --" x:Name="Respu" TextColor="Black"/>
+        <Entry Placeholder="-- --" x:Name="resp" TextColor="Black"/>
+        <Button Text="Calcular" x:Name="calculo" Clicked="calculo_Clicked" BackgroundColor="Red" TextColor="White"/>
+    </VerticalStackLayout>
+</ContentPage>
